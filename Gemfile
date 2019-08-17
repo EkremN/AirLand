@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
+gem 'toastr-rails'
 gem 'devise'
 gem 'webpacker', '~> 4.x'
 gem 'autoprefixer-rails'
